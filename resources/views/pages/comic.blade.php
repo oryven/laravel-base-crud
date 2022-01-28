@@ -4,6 +4,6 @@
 
 <h1>{{$comic -> title }}</h1>
 
-<h4>{{$comic -> release_date}}</h4>  
+<p>{{$comic -> release_date}}, {{$comic -> author }}, {{$comic -> pages}}</p>  
         
 @endsection

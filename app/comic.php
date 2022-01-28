@@ -10,7 +10,7 @@ class comic extends Model
 
         'title',
         'author',
-        'release_date'
-        
+        'release_date',
+        'pages'
     ];
 }

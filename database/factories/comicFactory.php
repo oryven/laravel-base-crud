@@ -10,5 +10,6 @@ $factory->define(comic::class, function (Faker $faker) {
         'title'=> $faker->word(),
         'author' => $faker->word(),
         'release_date'=> $faker->date(),
+        'pages' => $faker -> numberBetween(1, 500)
     ];
 });
