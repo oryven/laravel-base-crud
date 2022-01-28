@@ -2,14 +2,14 @@
 
 @section('content')
 
-{{-- <h1>films</h1>
+<h1>comics</h1>
 <ul>
     
-    @foreach ($movies as $movie)
+    @foreach ($Comics as $comic)
     <li>
-        <a href="{{ route('movie', $movie->id)}}">{{$movie -> title }} {{$movie -> release_date}}</a>
+        <a href="{{ route('comic', $comic->id)}}">{{$comic -> title }} {{$comic -> release_date}}</a>
     </li>      
     @endforeach
-</ul> --}}
+</ul>
         
 @endsection
